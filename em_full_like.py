@@ -138,7 +138,7 @@ for epoch in range(training_iter):
 
     #対数尤度の計算
     likelihood = np.log(temp)
-    print(likelihood)
+    print("likelihood",likelihood)
     likelihood_array.append(likelihood)
 
     # 図示
@@ -157,6 +157,7 @@ for epoch in range(training_iter):
     title = "epoch: {}".format(epoch+1)
     plt.title(title)
     plt.show()
+    print("pi:",pi)
 
 n = np.arange(epoch+1)
 plt.clf()
