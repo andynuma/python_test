@@ -1,3 +1,5 @@
+#分散が与えられた時，平均をベイズ推定で求める
+
 import numpy as np
 import matplotlib.pyplot as plt
 import argparse
